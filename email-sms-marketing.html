@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Financial Dashboards for MEO — MEO Masterclass</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <a href="../index.html" class="logo-badge">MEO Course</a>
+    <a href="../index.html" class="logo-title">Multiple<br><span>E-commerce</span></a>
+  </div>
+  <div class="sidebar-progress">
+    <div class="progress-label">Your Progress</div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" id="progressBar" style="width:0%"></div>
+    </div>
+    <div class="progress-count" id="progressCount">0 / 23 lessons complete</div>
+  </div>
+  <nav class="sidebar-nav"><div class="module-group"><div class="module-header">Module 1</div>
+        <a href="../lessons/what-is-meo.html" class="nav-item" data-lesson="what-is-meo">
+          <div class="nav-dot"></div>
+          <div class="nav-text">What is Multiple E-commerce Operations?</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/meo-mindset.html" class="nav-item" data-lesson="meo-mindset">
+          <div class="nav-dot"></div>
+          <div class="nav-text">The MEO Mindset: Systems Over Hustle</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/choosing-meo-model.html" class="nav-item" data-lesson="choosing-meo-model">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Choosing Your MEO Model</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/legal-financial-structure.html" class="nav-item" data-lesson="legal-financial-structure">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Legal & Financial Structure for MEO</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 2</div>
+        <a href="../lessons/platform-landscape.html" class="nav-item" data-lesson="platform-landscape">
+          <div class="nav-dot"></div>
+          <div class="nav-text">The E-commerce Platform Landscape</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/amazon-fba-meo.html" class="nav-item" data-lesson="amazon-fba-meo">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Amazon FBA for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/shopify-meo.html" class="nav-item" data-lesson="shopify-meo">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Shopify: Building Your Own Brand Ecosystem</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/tiktok-etsy-emerging.html" class="nav-item" data-lesson="tiktok-etsy-emerging">
+          <div class="nav-dot"></div>
+          <div class="nav-text">TikTok Shop, Etsy & Emerging Channels</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 3</div>
+        <a href="../lessons/product-research.html" class="nav-item" data-lesson="product-research">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Product Research for Multiple Stores</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/inventory-management.html" class="nav-item" data-lesson="inventory-management">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Inventory Management Across Stores</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/dropshipping-vs-private-label.html" class="nav-item" data-lesson="dropshipping-vs-private-label">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Dropshipping vs. Private Label in MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/3pl-fulfillment.html" class="nav-item" data-lesson="3pl-fulfillment">
+          <div class="nav-dot"></div>
+          <div class="nav-text">3PLs and Fulfillment Infrastructure</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 4</div>
+        <a href="../lessons/multi-channel-marketing.html" class="nav-item" data-lesson="multi-channel-marketing">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Multi-Channel Marketing Strategy</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/email-sms-marketing.html" class="nav-item" data-lesson="email-sms-marketing">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Email & SMS Marketing Across Stores</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/paid-advertising.html" class="nav-item" data-lesson="paid-advertising">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Paid Advertising for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/seo-organic-growth.html" class="nav-item" data-lesson="seo-organic-growth">
+          <div class="nav-dot"></div>
+          <div class="nav-text">SEO & Organic Growth at Scale</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 5</div>
+        <a href="../lessons/building-sops.html" class="nav-item" data-lesson="building-sops">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Building SOPs for Every Process</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/automation-tools.html" class="nav-item" data-lesson="automation-tools">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Automation Tools for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/hiring-team.html" class="nav-item" data-lesson="hiring-team">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Hiring VAs and Building Your MEO Team</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/customer-service-scale.html" class="nav-item" data-lesson="customer-service-scale">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Customer Service at Scale</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 6</div>
+        <a href="../lessons/financial-dashboards.html" class="nav-item active" data-lesson="financial-dashboards">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Financial Dashboards for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/opening-next-store.html" class="nav-item" data-lesson="opening-next-store">
+          <div class="nav-dot"></div>
+          <div class="nav-text">When and How to Open Your Next Store</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/exiting-selling-stores.html" class="nav-item" data-lesson="exiting-selling-stores">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Exiting, Selling, and Valuing MEO Stores</div>
+          <div class="nav-check">✓</div>
+        </a></div></nav>
+</aside>
+<main class="main">
+
+<div class="lesson-page">
+  <div class="lesson-breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <span>Module 6: Scaling & Financials</span>
+  </div>
+  <h1 class="lesson-title">Financial Dashboards for MEO</h1>
+  <div class="lesson-meta">
+    <span class="lesson-tag">⏱ 14 min</span>
+    <span class="lesson-tag">Finance</span>
+    <span class="lesson-tag">Lesson 21 of 23</span>
+  </div>
+  <div class="lesson-body">
+<h3>Flying Blind vs. Flying with Data</h3>
+<p>Most e-commerce operators confuse revenue with profit. In MEO, this is catastrophic — you can be generating $500K in revenue across 4 stores while actually losing money. A real-time financial dashboard per store is not optional.</p>
+<h3>The 5 Numbers Every Store Needs Weekly</h3>
+<ul>
+<li><strong>Gross Revenue</strong> — Total sales before returns and fees</li>
+<li><strong>Net Revenue</strong> — After returns, platform fees, and discounts</li>
+<li><strong>COGS</strong> — Cost of goods + shipping to warehouse + packaging</li>
+<li><strong>Gross Profit</strong> — Net Revenue minus COGS</li>
+<li><strong>Net Profit</strong> — Gross Profit minus ads, team, software, overhead</li>
+</ul>
+<h3>MEO Dashboard Tools</h3>
+<ul>
+<li><strong>Sellerboard</strong> — Best per-store P&L for Amazon sellers</li>
+<li><strong>BeProfit</strong> — Multi-store Shopify profit dashboard</li>
+<li><strong>Triple Whale</strong> — Premium attribution + profit tool for Shopify/Meta</li>
+<li><strong>Google Sheets / Notion</strong> — Manual but fully custom consolidated MEO dashboard</li>
+</ul>
+<div class="callout"><strong>Financial Rule:</strong> Review per-store P&L weekly. Review consolidated MEO P&L monthly. Any store that's been unprofitable for 3 consecutive months needs a transformation plan or an exit plan.</div>
+<h3>Cash Flow in MEO</h3>
+<p>Cash flow is tighter in MEO because you're funding inventory, ads, and operations across multiple fronts simultaneously. Amazon pays every 2 weeks; Shopify pays daily. Build a 90-day cash reserve per active store before opening a new one.</p>
+</div>
+  
+<div class="quiz-section">
+  <div class="quiz-label">✦ Knowledge Check</div>
+  <div class="quiz-question">What action should be taken for a store that's been unprofitable for 3 consecutive months?</div>
+  <div class="quiz-options" id="quizOptions"><button class="quiz-option" onclick="selectOption(this,0,2)"><div class="option-letter">A</div>Immediately close it</button><button class="quiz-option" onclick="selectOption(this,1,2)"><div class="option-letter">B</div>Invest more in advertising</button><button class="quiz-option" onclick="selectOption(this,2,2)"><div class="option-letter">C</div>Create a transformation plan or exit plan</button><button class="quiz-option" onclick="selectOption(this,3,2)"><div class="option-letter">D</div>Wait 6 more months before deciding</button></div>
+  <div class="quiz-feedback" id="quizFeedback"></div>
+</div>
+<script>
+var quizAnswered = false;
+function selectOption(el, idx, correct) {
+  if (quizAnswered) return;
+  quizAnswered = true;
+  var opts = document.querySelectorAll('.quiz-option');
+  opts.forEach(function(o, i) {
+    if (i === correct) o.classList.add('correct');
+    else if (i === idx && idx !== correct) o.classList.add('wrong');
+  });
+  var fb = document.getElementById('quizFeedback');
+  fb.textContent = (idx === correct ? '✓ Correct! ' : '✗ Not quite. ') + 'Three consecutive unprofitable months is the signal to act — either a documented turnaround plan or a planned exit. Doing nothing is not an option.';
+  fb.className = 'quiz-feedback ' + (idx === correct ? 'show-correct' : 'show-wrong');
+}
+</script>
+  <div class="lesson-nav">
+    <a href="customer-service-scale.html" class="btn-nav">← Previous</a>
+    <button id="completeBtn" class="btn-complete" onclick="markComplete()">Mark Complete & Continue →</button>
+    <a href="opening-next-store.html" class="btn-nav btn-nav-primary">Next →</a>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var btn = document.getElementById('completeBtn');
+  if (btn) {
+    var completed = JSON.parse(localStorage.getItem('meo_completed') || '[]');
+    if (completed.includes('financial-dashboards')) btn.textContent = '✓ Completed';
+  }
+});
+function markComplete() {
+  var completed = JSON.parse(localStorage.getItem('meo_completed') || '[]');
+  if (!completed.includes('financial-dashboards')) completed.push('financial-dashboards');
+  localStorage.setItem('meo_completed', JSON.stringify(completed));
+  var btn = document.getElementById('completeBtn');
+  if (btn) btn.textContent = '✓ Completed';
+  updateProgressBar();
+  markNavCompleted();
+  window.location.href = "opening-next-store.html";
+}
+</script>
+</main>
+<script src="../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopify: Building Your Own Brand Ecosystem — MEO Masterclass</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <a href="../index.html" class="logo-badge">MEO Course</a>
+    <a href="../index.html" class="logo-title">Multiple<br><span>E-commerce</span></a>
+  </div>
+  <div class="sidebar-progress">
+    <div class="progress-label">Your Progress</div>
+    <div class="progress-bar-track">
+      <div class="progress-bar-fill" id="progressBar" style="width:0%"></div>
+    </div>
+    <div class="progress-count" id="progressCount">0 / 23 lessons complete</div>
+  </div>
+  <nav class="sidebar-nav"><div class="module-group"><div class="module-header">Module 1</div>
+        <a href="../lessons/what-is-meo.html" class="nav-item" data-lesson="what-is-meo">
+          <div class="nav-dot"></div>
+          <div class="nav-text">What is Multiple E-commerce Operations?</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/meo-mindset.html" class="nav-item" data-lesson="meo-mindset">
+          <div class="nav-dot"></div>
+          <div class="nav-text">The MEO Mindset: Systems Over Hustle</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/choosing-meo-model.html" class="nav-item" data-lesson="choosing-meo-model">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Choosing Your MEO Model</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/legal-financial-structure.html" class="nav-item" data-lesson="legal-financial-structure">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Legal & Financial Structure for MEO</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 2</div>
+        <a href="../lessons/platform-landscape.html" class="nav-item" data-lesson="platform-landscape">
+          <div class="nav-dot"></div>
+          <div class="nav-text">The E-commerce Platform Landscape</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/amazon-fba-meo.html" class="nav-item" data-lesson="amazon-fba-meo">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Amazon FBA for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/shopify-meo.html" class="nav-item active" data-lesson="shopify-meo">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Shopify: Building Your Own Brand Ecosystem</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/tiktok-etsy-emerging.html" class="nav-item" data-lesson="tiktok-etsy-emerging">
+          <div class="nav-dot"></div>
+          <div class="nav-text">TikTok Shop, Etsy & Emerging Channels</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 3</div>
+        <a href="../lessons/product-research.html" class="nav-item" data-lesson="product-research">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Product Research for Multiple Stores</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/inventory-management.html" class="nav-item" data-lesson="inventory-management">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Inventory Management Across Stores</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/dropshipping-vs-private-label.html" class="nav-item" data-lesson="dropshipping-vs-private-label">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Dropshipping vs. Private Label in MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/3pl-fulfillment.html" class="nav-item" data-lesson="3pl-fulfillment">
+          <div class="nav-dot"></div>
+          <div class="nav-text">3PLs and Fulfillment Infrastructure</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 4</div>
+        <a href="../lessons/multi-channel-marketing.html" class="nav-item" data-lesson="multi-channel-marketing">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Multi-Channel Marketing Strategy</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/email-sms-marketing.html" class="nav-item" data-lesson="email-sms-marketing">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Email & SMS Marketing Across Stores</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/paid-advertising.html" class="nav-item" data-lesson="paid-advertising">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Paid Advertising for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/seo-organic-growth.html" class="nav-item" data-lesson="seo-organic-growth">
+          <div class="nav-dot"></div>
+          <div class="nav-text">SEO & Organic Growth at Scale</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 5</div>
+        <a href="../lessons/building-sops.html" class="nav-item" data-lesson="building-sops">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Building SOPs for Every Process</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/automation-tools.html" class="nav-item" data-lesson="automation-tools">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Automation Tools for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/hiring-team.html" class="nav-item" data-lesson="hiring-team">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Hiring VAs and Building Your MEO Team</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/customer-service-scale.html" class="nav-item" data-lesson="customer-service-scale">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Customer Service at Scale</div>
+          <div class="nav-check">✓</div>
+        </a><div class="module-group"><div class="module-header">Module 6</div>
+        <a href="../lessons/financial-dashboards.html" class="nav-item" data-lesson="financial-dashboards">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Financial Dashboards for MEO</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/opening-next-store.html" class="nav-item" data-lesson="opening-next-store">
+          <div class="nav-dot"></div>
+          <div class="nav-text">When and How to Open Your Next Store</div>
+          <div class="nav-check">✓</div>
+        </a>
+        <a href="../lessons/exiting-selling-stores.html" class="nav-item" data-lesson="exiting-selling-stores">
+          <div class="nav-dot"></div>
+          <div class="nav-text">Exiting, Selling, and Valuing MEO Stores</div>
+          <div class="nav-check">✓</div>
+        </a></div></nav>
+</aside>
+<main class="main">
+
+<div class="lesson-page">
+  <div class="lesson-breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <span>Module 2: Platform Strategy</span>
+  </div>
+  <h1 class="lesson-title">Shopify: Building Your Own Brand Ecosystem</h1>
+  <div class="lesson-meta">
+    <span class="lesson-tag">⏱ 16 min</span>
+    <span class="lesson-tag">Platform Deep-Dive</span>
+    <span class="lesson-tag">Lesson 7 of 23</span>
+  </div>
+  <div class="lesson-body">
+<h3>Shopify as Your Brand Home Base</h3>
+<p>While marketplaces bring traffic, Shopify stores give you something no marketplace can: <strong style="color:var(--accent)">customer data ownership</strong>. Every email, every phone number, every purchase history — yours. This is the foundation of long-term brand equity and repeat purchase revenue.</p>
+<h3>Running Multiple Shopify Stores</h3>
+<p>Shopify allows you to run multiple stores under different accounts. Each store needs its own subscription (Basic at $39/mo minimum), but with the right apps, you can manage them from central dashboards.</p>
+<ul>
+<li><strong>Shopify Organizations</strong> — Manage multiple stores under one login (available on advanced plans)</li>
+<li><strong>Matrixify (Excelify)</strong> — Bulk import/export products across multiple Shopify stores</li>
+<li><strong>Syncio</strong> — Sync inventory and products between Shopify stores</li>
+<li><strong>Gorgias</strong> — Unified customer service inbox across all your Shopify stores</li>
+</ul>
+<h3>Theme & Branding Efficiency</h3>
+<p>Don't design each store from scratch. Build one polished "master template" that can be cloned and re-skinned for each new store. A professional Shopify theme + your brand system = new store ready in days, not months.</p>
+<div class="callout"><strong>MEO Stack Tip:</strong> Use Klaviyo for email marketing across all your Shopify stores. One tool, separate accounts, same skill set — massive efficiency gain.</div>
+<h3>Shopify's Key MEO Advantage: Apps</h3>
+<p>Shopify's app ecosystem (8,000+ apps) lets you automate nearly everything: reviews, upsells, subscriptions, loyalty programs, abandoned cart recovery, returns management. Once you find the right app stack for one store, deploy it across all stores.</p>
+</div>
+  
+<div class="quiz-section">
+  <div class="quiz-label">✦ Knowledge Check</div>
+  <div class="quiz-question">What is Shopify's biggest advantage over marketplaces like Amazon for MEO operators?</div>
+  <div class="quiz-options" id="quizOptions"><button class="quiz-option" onclick="selectOption(this,0,2)"><div class="option-letter">A</div>Lower fees</button><button class="quiz-option" onclick="selectOption(this,1,2)"><div class="option-letter">B</div>More traffic</button><button class="quiz-option" onclick="selectOption(this,2,2)"><div class="option-letter">C</div>Customer data ownership</button><button class="quiz-option" onclick="selectOption(this,3,2)"><div class="option-letter">D</div>Better product discovery</button></div>
+  <div class="quiz-feedback" id="quizFeedback"></div>
+</div>
+<script>
+var quizAnswered = false;
+function selectOption(el, idx, correct) {
+  if (quizAnswered) return;
+  quizAnswered = true;
+  var opts = document.querySelectorAll('.quiz-option');
+  opts.forEach(function(o, i) {
+    if (i === correct) o.classList.add('correct');
+    else if (i === idx && idx !== correct) o.classList.add('wrong');
+  });
+  var fb = document.getElementById('quizFeedback');
+  fb.textContent = (idx === correct ? '✓ Correct! ' : '✗ Not quite. ') + 'Shopify gives you ownership of all customer data — emails, purchase history, behavior — enabling direct relationship building, email marketing, and repeat purchase revenue that marketplaces don't allow.';
+  fb.className = 'quiz-feedback ' + (idx === correct ? 'show-correct' : 'show-wrong');
+}
+</script>
+  <div class="lesson-nav">
+    <a href="amazon-fba-meo.html" class="btn-nav">← Previous</a>
+    <button id="completeBtn" class="btn-complete" onclick="markComplete()">Mark Complete & Continue →</button>
+    <a href="tiktok-etsy-emerging.html" class="btn-nav btn-nav-primary">Next →</a>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var btn = document.getElementById('completeBtn');
+  if (btn) {
+    var completed = JSON.parse(localStorage.getItem('meo_completed') || '[]');
+    if (completed.includes('shopify-meo')) btn.textContent = '✓ Completed';
+  }
+});
+function markComplete() {
+  var completed = JSON.parse(localStorage.getItem('meo_completed') || '[]');
+  if (!completed.includes('shopify-meo')) completed.push('shopify-meo');
+  localStorage.setItem('meo_completed', JSON.stringify(completed));
+  var btn = document.getElementById('completeBtn');
+  if (btn) btn.textContent = '✓ Completed';
+  updateProgressBar();
+  markNavCompleted();
+  window.location.href = "tiktok-etsy-emerging.html";
+}
+</script>
+</main>
+<script src="../main.js"></script>
+</body>
+</html>
